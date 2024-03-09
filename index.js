@@ -14,4 +14,11 @@ const handleClick = subNav => {
     resetSidebar();
 
     const subNavOuter = document.querySelector(`#${subNav}`);
+    const subNavInner = document.querySelector(`#${subNav} .subnav-inner`);
+
+    const button = subNavOuter.previousElementSibling;
+
+    if (subNavOuter.clientHeight > 0) {
+        button.classList.remove("active");
+    }
 };
