@@ -9,3 +9,9 @@ const resetSidebars = () => {
         btn.classList.remove("active");
     });
 }
+
+const handleClick = subNav => {
+    resetSidebar();
+
+    const subNavOuter = document.querySelector(`#${subNav}`);
+};
