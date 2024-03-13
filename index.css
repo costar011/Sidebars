@@ -32,3 +32,26 @@ button {
     margin-right: 14px;
     object-fit: contain;
 }
+
+.subnav {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: 0.4s;
+}
+
+.subnav-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.subnav button {
+    padding-left: 64px;
+}
+
+.subnav button::before {
+    content: "";
+    position: absolute;
+}
