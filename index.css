@@ -56,4 +56,9 @@ button {
     position: absolute;
     top: 50%;
     left: 36px;
+    translate: 0 -50%;
+
+    width: 5px;
+    height: 5PX;
+    border-radius: 50%;
 }
