@@ -54,4 +54,6 @@ button {
 .subnav button::before {
     content: "";
     position: absolute;
+    top: 50%;
+    left: 36px;
 }
