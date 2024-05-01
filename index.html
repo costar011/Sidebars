@@ -7,31 +7,23 @@
     <link href="index.css" rel="stylesheet" />
     <title>Sidebars</title>
 
-    <aside class="sidebar">
-    <img src="./logo.svg" />
-    <span>DataHub</span>
-  </head>
-  <body>
+   <aside class="sidebar">
+    <header>
+      <img src="./logo.svg"/>
+      <span>DataHub</span>
+    </header>
+
     <button>
       <span>home</span>
       <span>Home</span>
     </button>
 
-    <button onclick="handleClick('tools')">
-      <span>build</span>
-      <span>Tools</span>
-      <span>expand_more</span>
+    <button onclick="handClick(`tools`)">
+    <span>build</span>
+    <span>Tools</span>
+    <span>expand_more</span>
     </button>
 
-    <div id="tools" class="subnav">
-      <div class="subnav-inner">
-        <button>
-          <span>Documents</span>
-        </button>
-      </div>
-    </div>
-  </aside>
-
-  <script src="index.js"></script>
-  </body>
+    <div id="tools" class="subnav"></div>
+   </aside>
 </html>
