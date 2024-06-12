@@ -32,3 +32,14 @@ button {
 
     object-fit: contain;
 }
+
+.subnav {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: 0.4s;
+}
+
+.subnav-inner {
+    position: absolute;
+}
