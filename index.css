@@ -42,4 +42,21 @@ button {
 
 .subnav-inner {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.subnav button {
+    padding-left: 64px;
+}
+
+.subnav button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 36px;
+    translate: 0 -50%;
+
+    width: 5px;
 }
